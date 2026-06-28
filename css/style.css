@@ -1,0 +1,158 @@
+/* All Common CSS Start Here */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+/* All Common CSS End Here */
+
+/* All Header Start Here */
+.navbar {
+  background: rgb(255, 246, 238);
+  
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  color: #6f6f6f;
+  line-height: 35px;
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: orangered;
+}
+.eBtn i{
+  font-size: 20px;
+  color: #6f6f6f;
+  margin-right:5px;
+  transition: 0.4s;
+}
+.eBtn i:hover {
+  color: orangered;
+}
+/* All Header End Here */
+
+/* All Banner Start Here */
+.sliderOne {
+  background: url(../images/slider-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sliderTwo {
+  background: url(../images/slider-02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sliderThree {
+  background: url(../images/slider-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.prev {
+  font-size: 20px;
+  color: orange;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+.next {
+  font-size: 20px;
+  color: orange;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+.overly {
+  background: rgba(26, 24, 24, 0.5);
+  padding: 300px 0;
+}
+.bannerContent h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: orange;
+}
+.bannerContent h1 {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  padding-top: 35px;
+  padding-bottom: 45px;
+}
+.bannerContent a {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: whitesmoke;
+  background: orange;
+  padding: 15px 25px;
+  border-radius: 10px;
+  transition: all linear 0.4s;
+}
+.bannerContent a:hover {
+  background: transparent;
+  border-color: orangered;
+  border-radius: 10px;
+}
+/* All Banner End Here */
+
+/* All Banner Start Here */
+
+/* All Banner End Here */
+
+/* All Banner Start Here */
+
+/* All Banner End Here */
+
+/* All Banner Start Here */
+
+/* All Banner End Here */
+
+/* All Banner Start Here */
+
+/* All Banner End Here */
+
+/* All Banner Start Here */
+
+/* All Banner End Here */
+
+/* All Footer Start Here */
+.footerPart {
+  padding: 40px 0;
+  text-align: center;
+  background: orange;
+  color: white;
+}
+/* All Footer End Here */
