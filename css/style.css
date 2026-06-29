@@ -30,7 +30,11 @@ a:hover {
 /* All Header Start Here */
 .navbar {
   background: rgb(255, 246, 238);
-  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
 }
 .nav-link {
   font-size: 20px;
@@ -44,10 +48,10 @@ a:hover {
 .nav-link:hover {
   color: orangered;
 }
-.eBtn i{
+.eBtn i {
   font-size: 20px;
   color: #6f6f6f;
-  margin-right:5px;
+  margin-right: 5px;
   transition: 0.4s;
 }
 .eBtn i:hover {
@@ -56,6 +60,7 @@ a:hover {
 /* All Header End Here */
 
 /* All Banner Start Here */
+
 .sliderOne {
   background: url(../images/slider-01.jpg);
   background-repeat: no-repeat;
@@ -122,9 +127,9 @@ a:hover {
   transition: all linear 0.4s;
 }
 .bannerContent a:hover {
-  background: transparent;
-  border-color: orangered;
-  border-radius: 10px;
+  background: #fff;
+  color: #f89b1c;
+  border: 2px solid #f89b1c;
 }
 /* All Banner End Here */
 
@@ -149,6 +154,81 @@ a:hover {
 /* All Banner End Here */
 
 /* All Footer Start Here */
+/*================ Footer =================*/
+
+#footerPart{
+    padding:80px 0 20px;
+    border-top:1px solid #ddd;
+    background:#fff;
+}
+.footerContent img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footerContent p{
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5;
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+ 
+}
+
+.footerContent h4{
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.5;
+  color: #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.contactItem{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:18px;
+}
+
+.contactItem i{
+    color:#f89b1c;
+    font-size:20px;
+    margin-top:5px;
+}
+
+.footerLinks{
+  margin-top: 30px;
+  display: flex;
+}
+.footerLinks h4{
+  margin-top: 30px;
+  display: flex;
+}
+
+.footerLinks ul{
+    padding:0;
+    margin:0;
+    margin-top: 30px;
+}
+
+.footerLinks ul li{
+      margin-bottom:18px;
+}
+
+.footerLinks ul li a{
+    text-decoration:none;
+    color:#444;
+    transition:.3s;
+}
+
+.footerLinks ul li a:hover{
+    color:#f89b1c;
+    padding-left:8px;
+}
+
 .footerPart {
   padding: 40px 0;
   text-align: center;
